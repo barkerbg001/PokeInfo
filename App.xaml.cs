@@ -1,8 +1,11 @@
-﻿namespace PokeInfo;
+﻿using PokeInfo.Service;
+
+namespace PokeInfo;
 
 public partial class App : Application
 {
-	public App()
+    public static PokeService PokeService = new PokeService();
+    public App()
 	{
 		InitializeComponent();
 
