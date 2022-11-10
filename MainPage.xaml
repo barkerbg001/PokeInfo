@@ -6,7 +6,7 @@
     <AbsoluteLayout>
         <CollectionView x:Name="cvPokemonList" SelectionMode="Single" SelectionChanged="cvPokemonList_SelectionChanged" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
             <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical" Span="4" />
+                <GridItemsLayout Orientation="Vertical" Span="2" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>

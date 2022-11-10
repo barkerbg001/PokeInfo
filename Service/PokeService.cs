@@ -10,7 +10,7 @@ namespace PokeInfo.Service;
 
 public class PokeService
 {
-    PokeApiNet.PokeApiClient pokeApi = new PokeApiNet.PokeApiClient();
+    PokeApiNet.PokeApiClient pokeApi = new PokeApiClient();
 
     public async Task<int> GetNumberOfPokemons()
     {
